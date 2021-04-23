@@ -1,4 +1,8 @@
-print('Load some basic libraries and base DS stack. Initialize parameters for viewing. Can be seen by calling print(_IMPORTS)')
+"""Load some basic libraries and base DS stack. 
+
+Initial parameters for working are also set. 
+The script can be seen from the jupyter notebook by calling print(_IMPORTS)
+"""
 
 _IMPORTS = """import datetime as dt
 from collections import defaultdict, Counter, namedtuple
