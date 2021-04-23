@@ -6,6 +6,7 @@ The script can be seen from the jupyter notebook by calling print(_IMPORTS)
 
 _IMPORTS = """import datetime as dt
 from collections import defaultdict, Counter, namedtuple
+from itertools import product, combinations, permutations
 import json
 import os
 import pickle
