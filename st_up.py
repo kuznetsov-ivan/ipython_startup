@@ -35,6 +35,8 @@ tqdm.pandas()
 
 # Autoreload
 get_ipython().magic(u"%reload_ext autoreload")
-get_ipython().magic(u"%autoreload 2")"""
+get_ipython().magic(u"%autoreload 2")
+get_ipython().magic(u"%load_ext line_profiler")
+"""
 
 exec(_IMPORTS)
